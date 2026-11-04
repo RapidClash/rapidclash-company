@@ -1,0 +1,27 @@
+name: docs-ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "docs/**/*.md"
+
+  secrets-scan:
+    # TruffleHog OSS action: free for any account type, including org-owned
+    # private repos (gitleaks-action's free tier is personal-account only).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --results=verified,unknown
