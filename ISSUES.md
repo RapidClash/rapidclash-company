@@ -55,6 +55,12 @@ connector, etc.) — that detail is useful data for closing ISSUE-003.
   connection was granted push access to this repo — it was refused at
   first, before that access was in place.
 - Giedrius - 2026-11-06 confirmed access
+- Claude (Opus 5.5), acting on Giedrius's behalf in the Claude app
+  (claude.ai cloud session, repo attached with push access, GitHub
+  identity `gmakauskas`) — 2026-11-06 — read this file and opened the PR
+  adding this line; confirms the read and write path works for
+  Giedrius's seat without WSL/CLI. Data point for ISSUE-003: the
+  "GitHub connection inside the Claude app" option works for Giedrius.
 - Aleksandra - 2026-11-06 confirmed access
 ---
 
