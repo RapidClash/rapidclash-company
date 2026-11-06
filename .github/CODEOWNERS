@@ -1,26 +1,23 @@
 # Review routing. Last matching line wins.
-#
-# TODO (RC-07-003 step 1, owner Ramūnas): @giedrius, @povilas and @aleksandra
-# below are PLACEHOLDERS, not confirmed GitHub usernames — swap them for the
-# real handles as soon as they're known. Until then GitHub cannot auto-request
-# review from them; CODEOWNERS review enforcement on `main` should not be
-# turned on in branch protection until this is fixed.
 *                                   @Ramunas01
+# Low-friction operational log — any one of the four, not gated on Ramūnas.
+/ISSUES.md                          @Ramunas01 @gmakauskas @povilasmak @aleksandra-rc
+/ISSUES_HISTORY.md                  @Ramunas01 @gmakauskas @povilasmak @aleksandra-rc
 /docs/adr/                          @Ramunas01
 /docs/architecture/                 @Ramunas01
 /docs/interfaces/                   @Ramunas01
-/docs/processes/                    @giedrius
-/docs/processes/l2/kyc-*            @povilas
-/docs/processes/l2/regulatory-*     @povilas
-/docs/processes/runbooks/           @giedrius
-/docs/assistants/a1-*               @giedrius
-/docs/assistants/a2-*               @giedrius
+/docs/processes/                    @gmakauskas
+/docs/processes/l2/kyc-*            @povilasmak
+/docs/processes/l2/regulatory-*     @povilasmak
+/docs/processes/runbooks/           @gmakauskas
+/docs/assistants/a1-*               @gmakauskas
+/docs/assistants/a2-*               @gmakauskas
 /docs/assistants/a3-*               @Ramunas01
-/docs/assistants/a4-*               @povilas
-/docs/assistants/a5-*               @povilas
-/docs/assistants/a6-*               @aleksandra
+/docs/assistants/a4-*               @povilasmak
+/docs/assistants/a5-*               @povilasmak
+/docs/assistants/a6-*               @aleksandra-rc
 # money, RNG, player data – always a human approver + Reviewer-assistant pass
-/packages/ledger/                   @Ramunas01 @povilas
-/packages/wallet/                   @Ramunas01 @povilas
+/packages/ledger/                   @Ramunas01 @povilasmak
+/packages/wallet/                   @Ramunas01 @povilasmak
 /packages/rng-core/                 @Ramunas01
-/packages/kyc/                      @Ramunas01 @povilas
+/packages/kyc/                      @Ramunas01 @povilasmak
