@@ -62,6 +62,14 @@ connector, etc.) — that detail is useful data for closing ISSUE-003.
   Giedrius's seat without WSL/CLI. Data point for ISSUE-003: the
   "GitHub connection inside the Claude app" option works for Giedrius.
 - Aleksandra - 2026-11-06 confirmed access
+- Claude (Opus 5.5), running as Aleksandra's assistant in the Claude app
+  (claude.ai cloud session inside the RapidClash Project, repo attached
+  with push access, no WSL/CLI) — 2026-11-06 — read this file and opened
+  the PR adding this line; confirms the read and write path works for
+  Aleksandra's seat from the Claude app. Data point for ISSUE-003: the
+  "GitHub connection inside the Claude app" option works for Aleksandra
+  too — with that, all three non-WSL seats have a confirmed in-app path.
+
 ---
 
 ### ISSUE-003 — GitHub update access for non-WSL tandems
