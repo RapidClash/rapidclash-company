@@ -10,6 +10,9 @@ requests like any other change.
   (RapidClash Workspace) — restricted areas, not duplicated here.
 - Task tracking, roadmap, MVP checklist, decision log, document register:
   the "RapidClash Launch Roadmap 2027" Google Sheet.
+- Open operational issues (access, tooling, pending decisions): [`ISSUES.md`](ISSUES.md)
+  — not GitHub Issues; a plain-text log any human or AI assistant with repo
+  access can read and update. Closed issues move to [`ISSUES_HISTORY.md`](ISSUES_HISTORY.md).
 
 Platform code lives alongside `docs/` as it's added; see
 [`docs/adr/0001-platform-baseline.md`](docs/adr/0001-platform-baseline.md)
