@@ -1,5 +1,8 @@
 # Review routing. Last matching line wins.
 *                                   @Ramunas01
+# Low-friction operational log — any one of the four, not gated on Ramūnas.
+/ISSUES.md                          @Ramunas01 @gmakauskas @povilasmak @aleksandra-rc
+/ISSUES_HISTORY.md                  @Ramunas01 @gmakauskas @povilasmak @aleksandra-rc
 /docs/adr/                          @Ramunas01
 /docs/architecture/                 @Ramunas01
 /docs/interfaces/                   @Ramunas01
