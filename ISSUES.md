@@ -54,6 +54,7 @@ connector, etc.) — that detail is useful data for closing ISSUE-003.
   Data point for ISSUE-003: the in-app path worked once the GitHub
   connection was granted push access to this repo — it was refused at
   first, before that access was in place.
+  - Giedrius - 2026-11-06 confirmed access
 ---
 
 ### ISSUE-003 — GitHub update access for non-WSL tandems
