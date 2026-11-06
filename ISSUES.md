@@ -41,8 +41,10 @@ connector, etc.) — that detail is useful data for closing ISSUE-003.
 
 **Confirmations**
 
-- Ramūnas, via Claude Code (WSL) — 2026-11-06 — read this file and opened
-  this PR.
+- Claude (Sonnet 5), running as Ramūnas's assistant via Claude Code/WSL —
+  2026-11-06 — drafted and opened the PR creating this file; confirms the
+  write path works from this session. Ramūnas's own confirmation as the
+  human on this seat is still needed separately, alongside everyone else's.
 
 ---
 
