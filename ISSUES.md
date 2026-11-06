@@ -47,6 +47,13 @@ connector, etc.) — that detail is useful data for closing ISSUE-003.
   human on this seat is still needed separately, alongside everyone else's.
  - Ramunas - 2026-11-06 confirmed access
  - Povilas - 2026-11-06 confirmed access
+- Claude (Opus 5.5), running as Povilas's assistant in the Claude app
+  (claude.ai, cloud session with the GitHub repo attached, no WSL/CLI on
+  his PC) — 2026-11-06 — read this file and opened the PR adding this
+  line; confirms the read and write path works from the Claude app.
+  Data point for ISSUE-003: the in-app path worked once the GitHub
+  connection was granted push access to this repo — it was refused at
+  first, before that access was in place.
 ---
 
 ### ISSUE-003 — GitHub update access for non-WSL tandems
