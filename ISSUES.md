@@ -45,7 +45,7 @@ connector, etc.) — that detail is useful data for closing ISSUE-003.
   2026-11-06 — drafted and opened the PR creating this file; confirms the
   write path works from this session. Ramūnas's own confirmation as the
   human on this seat is still needed separately, alongside everyone else's.
-
+ - Ramunas - 2026-11-06 confirmed access
 ---
 
 ### ISSUE-003 — GitHub update access for non-WSL tandems
